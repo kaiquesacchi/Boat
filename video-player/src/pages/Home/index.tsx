@@ -8,12 +8,15 @@ const Page = styled.div`
   min-height: 100vh;
   height: 100%;
   background-color: #111;
-  padding: 50px 0 50px 50px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 `;
 
 const List = styled.ul`
   margin: 0;
   padding: 0;
+  width: 80%;
 `;
 
 export default function Home() {
@@ -22,19 +25,13 @@ export default function Home() {
       url: 'https://youtu.be/ClpFuDmvtCs',
       title: 'Simulação de Fluidos - 10m/s',
       description:
-        'Vídeo gerado utilizando a engine de simulação de fluidos do Blender. A velocidade do fluxo de água é de 5m/s'
+        'Vídeo gerado utilizando a engine de simulação de fluidos do Blender. A velocidade do fluxo de água é de 10m/s'
     },
     {
       url: 'https://youtu.be/4_XMj6qsOEc',
       title: 'Simulação de Fluidos - 16m/s',
       description:
         'Vídeo gerado utilizando a engine de simulação de fluidos do Blender. A velocidade do fluxo de água é de 16m/s. Nesse cenário, o balanço do barco é muito mais violento por conta da turbulência gerada pela água.'
-    },
-    {
-      url: 'https://youtu.be/ClpFuDmvtCs',
-      title: 'Simulação de Fluidos - 5m/s',
-      description:
-        'Vídeo gerado utilizando a engine de simulação de fluidos do Blender. A velocidade do fluxo de água é de 20m/s'
     }
   ];
 

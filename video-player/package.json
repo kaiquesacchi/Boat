@@ -1,8 +1,13 @@
 {
   "name": "video-player",
   "version": "0.1.0",
+  "description": "Lista vídeos de simulações de fluidos feitas com o Blender 2.8",
+  "author": "Kaique Sacchi",
   "main": "public/electron.js",
-
+  "build": {
+    "appId": "com.kaiquesacchi.video-player"
+  },
+  "homepage": "./",
   "dependencies": {
     "@testing-library/jest-dom": "^4.2.4",
     "@testing-library/react": "^9.5.0",

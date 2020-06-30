@@ -10,8 +10,7 @@ interface iProps {
 }
 
 const Item = styled.li`
-  margin: 0 30px 50px;
-  width: 85%;
+  margin: 0 0 50px;
   display: flex;
   padding: 30px;
   background-color: rgb(81, 87, 91);
@@ -21,11 +20,11 @@ const Item = styled.li`
 `;
 
 const TextArea = styled.div`
-  width: 60%;
+  width: 80%;
   color: white;
   padding: 10px 50px;
   h1 {
-    font-size: 3rem;
+    font-size: 2rem;
   }
   p {
     font-size: 1.5rem;
@@ -36,7 +35,7 @@ export default function ListItem({ url, title, description }: iProps) {
   const history = useHistory();
   return (
     <Item onClick={() => history.push('/video-player?url=' + url)}>
-      <ReactPlayer url={url} light />
+      <ReactPlayer url={url} light width="80%" />
       <TextArea>
         <h1>{title}</h1>
         <p>{description}</p>
