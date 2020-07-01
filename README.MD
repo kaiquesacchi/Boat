@@ -6,7 +6,7 @@ Ambas as alternativas geraram como resultados arquivos de vídeo, renderizados n
 ___
 ## Tutorial em Vídeo
 https://youtu.be/Y6a876elHYo
-
+___
 ## Instalação
 
 ### 1. Utilizando o programa para Linux
