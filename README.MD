@@ -4,6 +4,9 @@ Neste projeto, desenvolvemos duas soluções à simulação de fluidos no Blende
 
 Ambas as alternativas geraram como resultados arquivos de vídeo, renderizados no próprio Blender. Para apresentá-los de forma interativa, desenvolveu-se uma plataforma WEB, que foi, depois, convertida em um programa para Desktop Linux. Tal plataforma permite ao usuário listar e assistir os vídeos, que foram hospedados no Youtube para dispensar os arquivos locais, reduzindo o tamanho do executável resultante.
 ___
+## Tutorial em Vídeo
+https://youtu.be/Y6a876elHYo
+
 ## Instalação
 
 ### 1. Utilizando o programa para Linux
